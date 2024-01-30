@@ -7,6 +7,7 @@ using TryBets.Odds.Repository;
 
 namespace TryBets.Odds.Controllers;
 
+[ApiController]
 [Route("[controller]")]
 public class OddController : Controller
 {
@@ -20,6 +21,13 @@ public class OddController : Controller
 
     public IActionResult Patch(int MatchId, int TeamId, string BetValue)
     {
-        throw new NotImplementedException();
+        try
+        {
+            return Ok(_repository.Patch(MatchId, TeamId, BetValue));
+        }
+        catch(Exception ex)
+        {
+            return BadRequest(ex.Message);
+        }
     }
 }
