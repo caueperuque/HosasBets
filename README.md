@@ -1,4 +1,4 @@
-# **HosasBets - Sistema de Apostas Esportivas**
+# **HosasBets - Sistema de Apostas Esportivas** 🤑🤑
 
 Bem-vindo(a) ao HosasBets!
 
@@ -7,25 +7,18 @@ Este é um sistema incrível para gerenciar apostas esportivas! Com o HosasBets,
 ## **Tecnologias Utilizadas**
 
 - **SQL Server:**
-  ![SQL Server Logo](URL_DO_LOGO_SQL_SERVER)
 
 - **C#:**
-  ![C# Logo](URL_DO_LOGO_C_SHARP)
 
 - **ASP.NET Core:**
-  ![ASP.NET Core Logo](URL_DO_LOGO_ASP_NET_CORE)
 
 - **Entity Framework Core:**
-  ![Entity Framework Core Logo](URL_DO_LOGO_ENTITY_FRAMEWORK_CORE)
 
 - **JWT:**
-  ![JWT Logo](URL_DO_LOGO_JWT)
 
 - **Docker:**
-  ![Docker Logo](URL_DO_LOGO_DOCKER)
 
 - **Swagger/OpenAPI:**
-  ![Swagger/OpenAPI Logo](URL_DO_LOGO_SWAGGER_OPENAPI)
 
 ## **Instalação e Configuração**
 
