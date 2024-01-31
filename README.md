@@ -26,7 +26,7 @@ Vamos começar!
 
 1. Clone o repositório HosasBets:
    ```
-   git clone git@github.com:Rocketseat/hosasbets_api.git
+   git clone git@github.com:caueperuque/HosasBets.git
    ```
 
 2. Instale as dependências do projeto utilizando o NuGet Package Manager:
