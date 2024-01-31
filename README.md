@@ -1,10 +1,114 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# **HosasBets - Sistema de Apostas Esportivas**
+
+Bem-vindo(a) ao HosasBets!
+
+Este é um sistema incrível para gerenciar apostas esportivas! Com o HosasBets, você pode controlar pessoas usuárias, times, partidas e apostas.
+
+## **Tecnologias Utilizadas**
+
+- **SQL Server:**
+  ![SQL Server Logo](URL_DO_LOGO_SQL_SERVER)
+
+- **C#:**
+  ![C# Logo](URL_DO_LOGO_C_SHARP)
+
+- **ASP.NET Core:**
+  ![ASP.NET Core Logo](URL_DO_LOGO_ASP_NET_CORE)
+
+- **Entity Framework Core:**
+  ![Entity Framework Core Logo](URL_DO_LOGO_ENTITY_FRAMEWORK_CORE)
+
+- **JWT:**
+  ![JWT Logo](URL_DO_LOGO_JWT)
+
+- **Docker:**
+  ![Docker Logo](URL_DO_LOGO_DOCKER)
+
+- **Swagger/OpenAPI:**
+  ![Swagger/OpenAPI Logo](URL_DO_LOGO_SWAGGER_OPENAPI)
+
+## **Instalação e Configuração**
+
+Vamos começar!
+
+1. Clone o repositório HosasBets:
+   ```
+   git clone git@github.com:Rocketseat/hosasbets_api.git
+   ```
+
+2. Instale as dependências do projeto utilizando o NuGet Package Manager:
+   ```
+   dotnet restore
+   ```
+
+3. Configure as credenciais do banco de dados no arquivo `appsettings.json`:
+   ```json
+   {
+     "ConnectionStrings": {
+       "DefaultConnection": "Server=127.0.0.1;Database=HosasBets;User=SA;Password=HosasBets123456!;TrustServerCertificate=true"
+     }
+   }
+   ```
+
+4. Inicie o serviço do banco de dados:
+   - Se estiver utilizando o Docker:
+     ```
+     docker-compose up -d
+     ```
+   - Se estiver utilizando outro banco de dados, inicie o serviço de acordo com as instruções do fabricante.
+
+5. Inicie o servidor da aplicação:
+   ```
+   dotnet run
+   ```
+
+## **Documentação da API**
+
+A documentação da API está disponível no seguinte endereço:
+
+[http://localhost:5500/swagger/index.html](http://localhost:5500/swagger/index.html)
+
+## **Testes**
+
+Para executar os testes da aplicação, execute o seguinte comando:
+
+```
+dotnet test
+```
+
+## **Contribuindo**
+
+Contribuições são sempre bem-vindas! Para contribuir com o projeto, siga estas etapas:
+
+1. Faça um fork do repositório.
+2. Crie uma nova branch para sua alteração.
+3. Faça suas alterações e teste-as.
+4. Envie um pull request para a branch principal.
+
+## **Licença**
+
+O HosasBets é licenciado sob a licença de eu Mesmo <3.
+
+## **Diferenciais de HosasBets**
+
+O HosasBets é uma versão atualizada do TryBetsAPI, com as seguintes diferenças:
+
+- **Arquitetura:**
+  - O HosasBets utiliza uma arquitetura de microsserviços.
+
+- **Tecnologias:**
+  - O HosasBets utiliza as seguintes tecnologias:
+    - SQL Server como banco de dados
+    - C# como linguagem de programação
+    - ASP.NET Core como framework web
+    - Entity Framework Core como ORM
+    - JWT como mecanismo de autenticação
+    - Docker como plataforma de containerização
+    - Swagger/OpenAPI para documentação da API
+
+- **Funcionalidades:**
+  - O HosasBets possui as seguintes funcionalidades adicionais:
+    - Gerenciamento de usuários: permite que os administradores criem, editem e excluam usuários.
+    - Gerenciamento de times: permite que os administradores criem, editem e excluam times.
+    - Gerenciamento de partidas: permite que os administradores criem, editem e excluam partidas.
+    - Gerenciamento de apostas: permite que os usuários façam apostas em partidas.
